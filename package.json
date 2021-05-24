@@ -14,7 +14,8 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.12.11"
   },
   "repository": {
     "type": "git"
@@ -26,5 +27,7 @@
     "react"
   ],
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "index.js",
+  "author": "Y Waller"
 }
