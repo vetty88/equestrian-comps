@@ -1,4 +1,10 @@
 const express = require('express');
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const passport = require("passport");
+const users = require("./routes/api/users");
+const horses = require("./routes/api/horses");
+const competitions = require("./routes/api/competitions");
 const path = require('path');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
@@ -7,15 +13,9 @@ const isDev = process.env.NODE_ENV !== 'production';
 const PORT = process.env.PORT || 5000;
 
 
-const mongoose = require("mongoose");
-const bodyParser = require("body-parser");
-const passport = require("passport");
-const users = require("./routes/api/users");
-const horses = require("./routes/api/horses");
-const competitions = require("./routes/api/competitions");
 
 const app = express();
-app.use(cors());
+
 // Bodyparser middleware
 app.use(
   bodyParser.urlencoded({
