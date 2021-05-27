@@ -1,3 +1,9 @@
+// HTTP proxy
+// Just replace 'http://' with 'https://' to use HTTPS proxy
+require('friendly-error')({
+  proxy: 'http://localhost:8080'
+})
+
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
