@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "How to use create-react-app with a custom Node API on Heroku",
   "engines": {
-    "node": "10.x"
+    "node": "14.15.2"
   },
   "scripts": {
     "start": "node server",
@@ -53,6 +53,8 @@
     "i": "^0.3.6",
     "identicon.js": "^2.3.3",
     "if-env": "^1.0.4",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
     "jw-react-pagination": "^1.0.7",
     "lorem-ipsum": "^1.0.6",
     "material-dashboard-react": "^1.9.0",
@@ -62,6 +64,8 @@
     "namor": "^1.1.1",
     "npm": "^7.6.0",
     "object-assign": "4.1.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
     "pe7-icon": "^1.0.4",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.6",
@@ -114,6 +118,7 @@
     "stylis": "^4.0.7",
     "sw-precache-webpack-plugin": "0.11.5",
     "url-loader": "^4.1.1",
+    "validator": "^13.6.0",
     "webpack-manifest-plugin": "1.2.1",
     "webpack-split-chunks": "^0.2.1",
     "whatwg-fetch": "2.0.3",
