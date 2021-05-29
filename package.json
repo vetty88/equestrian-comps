@@ -7,8 +7,16 @@
     "npm": "6.14.9"
   },
   "scripts": {
-    "start": "node server",
-    "build": "cd react-ui/ && npm install && npm run build"
+    "go": "rimraf yarn.lock && rimraf node_modules && yarn install && node -e \"var fs = require('fs'); if (!fs.existsSync('yarn.lock')) { console.error('NO LOCK FILE FOUND!!!'); }\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server",
+    "start:dev": "concurrently \"nodemon --ignore 'react-ui/*'\" \"npm run react-ui\"",
+    "react-ui": "cd react-ui && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd react-ui && npm install",
+    "build": "cd react-ui && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "cacheDirectories": [
     "node_modules",
