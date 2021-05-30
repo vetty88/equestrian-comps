@@ -13,7 +13,7 @@ import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 import Icon from "@material-ui/core/Icon";
 import React, {useEffect, useState, useContext} from "react";
-import styles from "../../assets/jss/material-dashboard-react/views/DashboardStyle.js";
+import styles from "../../assets/jss/material-dashboard-react/views/dashboardStyle.js";
 import Table from "../../components/Table/Table.js";
 import Update from "@material-ui/icons/Update";
   
