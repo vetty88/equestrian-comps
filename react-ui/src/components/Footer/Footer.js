@@ -17,7 +17,7 @@ export default function Footer(props) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a href="/admin/dashboard" className={classes.block}>
+              <a href="/admin/adminDashboard" className={classes.block}>
                 Dashboard
               </a>
             </ListItem>

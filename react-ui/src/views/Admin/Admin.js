@@ -13,7 +13,7 @@ import Sidebar from "../../components/Sidebar/Sidebar.js";
 import Dashboard from "../../components/Dashboard/Dashboard";
 // import FixedPlugin from "../../components/FixedPlugin/FixedPlugin.js";
 
-import dashboardRoutes from "../../dashboardRoutes.js";
+import dashboardRoutes from "../../adminDashboardRoutes.js";
 
 import styles from "../../assets/jss/material-dashboard-react/layouts/adminStyle.js";
 
@@ -36,7 +36,7 @@ const switchRoutes = (
       }
       return null;
     })}
-    <Redirect from="/admin" to="/admin/dashboard" />
+    <Redirect from="/admin" to="/admin/adminDashboard" />
   </Switch>
 );
 
@@ -69,7 +69,7 @@ export default function Admin({ ...rest }) {
     setMobileOpen(!mobileOpen);
   };
   const getRoute = () => {
-    return window.location.pathname !== "/admin/dashboard";
+    return window.location.pathname !== "/admin/adminDashboard";
   };
   const resizeFunction = () => {
     if (window.innerWidth >= 960) {
