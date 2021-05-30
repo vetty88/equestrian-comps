@@ -13,7 +13,7 @@ import Sidebar from "../../components/Sidebar/Sidebar.js";
 import Dashboard from "../../components/Dashboard/Dashboard";
 // import FixedPlugin from "../../components/FixedPlugin/FixedPlugin.js";
 
-import dashboardRoutes from "../../adminDashboardRoutes.js";
+import dashboardRoutes from "../../DashboardRoutes.js";
 
 import styles from "../../assets/jss/material-dashboard-react/layouts/adminStyle.js";
 
