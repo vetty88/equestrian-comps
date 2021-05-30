@@ -39,7 +39,7 @@ app.use("/api/users", users);
 app.use("/api/horses", horses);
 app.use("/api/competitions", competitions);
 
-const server = app.listen(process.env.PORT || 5000, () => {
+const server = app.listen(process.env.PORT || 8080, () => {
   const port = server.address().port;
   console.log(`Express is working on port ${port}`);
 });
