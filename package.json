@@ -42,6 +42,7 @@
     "chartist": "^0.11.4",
     "chroma-js": "^2.0.2",
     "classnames": "^2.2.6",
+    "concurrently": "^6.2.0",
     "cross-env": "^5.2.0",
     "d3-scale": "^2.2.2",
     "date-arithmetic": "^3.1.0",
