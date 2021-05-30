@@ -1,1 +1,1 @@
-web: node server
+web: node server cd react-ui npm start
