@@ -66,7 +66,7 @@ export default Landing;
 //     if (obj && obj.token) {
 //       const { token } = obj;
 //       // Verify token
-//       fetch('/api/account/verify?token=' + token)
+//       fetch('./routes/api/account/verify?token=' + token)
 //         .then(res => res.json())
 //         .then(json => {
 //           if (json.success) {
@@ -123,7 +123,7 @@ export default Landing;
 //     });
 
 //     // Post request to backend
-//     fetch('/api/account/register', {
+//     fetch('./routes/api/account/register', {
 //       method: 'COMP',
 //       headers: {
 //         'Content-Type': 'application/json'
@@ -163,7 +163,7 @@ export default Landing;
 //     });
 
 //     // Post request to backend
-//     fetch('/api/account/login', {
+//     fetch('./routes/api/account/login', {
 //       method: 'COMP',
 //       headers: {
 //         'Content-Type': 'application/json'
@@ -201,7 +201,7 @@ export default Landing;
 //     if (obj && obj.token) {
 //       const { token } = obj;
 //       // Verify token
-//       fetch('/api/account/logout?token=' + token)
+//       fetch('./routes/api/account/logout?token=' + token)
 //         .then(res => res.json())
 //         .then(json => {
 //           if (json.success) {

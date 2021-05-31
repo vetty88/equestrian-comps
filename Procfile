@@ -1,1 +1,1 @@
-web: npm start npm run react-ui
+web: npm start npm run client

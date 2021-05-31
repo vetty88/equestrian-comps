@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [message, setMessage] = useState(null);
   const [isFetching, setIsFetching] = useState(false);
-  const [url, setUrl] = useState('/api');
+  const [url, setUrl] = useState('./routes/api');
 
   const fetchData = useCallback(() => {
     fetch(url)
