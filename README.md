@@ -20,6 +20,7 @@
   ![Screenshot](./Screen.PNG?raw=true)
 
   Repo: https://github.com/vetty88/Equestrian-Comps
+  Heroku: nameless-island-13777 - https://nameless-island-13777.herokuapp.com/
 
 Video of app in action, see file: https://drive.google.com/file/d/1mIgtS27Gmv0B7ebZv5a_AWD_GH1xmNbS/view
 
@@ -69,7 +70,9 @@ Fork the Project
 ## Tests
 
 See the open issues for a list of proposed features (and known issues). Testing completed and any known issues include the following:
- Have to tidy a few of the 'test' fields and also trying to figure out how to make the data show for the logged in user only, i.e: the data they have created. Haven't figured this out yet so the data in mongo is for all users shown
+* Have to tidy a few of the 'test' fields
+* Trying to figure out how to make the data show for the logged in user only, i.e: the data they have created. Haven't figured this out yet so the data in mongo is for all users shown
+* Issue where field has to change and date field has to be selected rather than typed to add to MONGODB correct'y, not sure how to fix - any feedback welcome! 
  
 ## License
 
@@ -87,8 +90,10 @@ Github User: vetty88
 
 
 Yvette Waller 2021
-Credits Codebase Author: Monash University/Trilogy Education.
+Credits Education : Monash University/Trilogy Education.
 
 Resources utilised to edit the code:
-
-Monash University ReadMe and Slide Materials Mozilla MDN WebDocs: https://developer.mozilla.org/en-US/ W3 Schools: https://www.w3schools.com/ Stack Overflow: https://www.stackoverflow.com/
+Monash University ReadMe and Slide Materials Mozilla 
+MDN WebDocs: https://developer.mozilla.org/en-US/ 
+W3 Schools: https://www.w3schools.com/ 
+Stack Overflow: https://www.stackoverflow.com/
