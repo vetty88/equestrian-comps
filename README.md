@@ -14,7 +14,7 @@
 
 <h1> ## Equestrian-Comps </h1>
 
-  This app is for horse riders to record their horses and competition achievements to reflect on and map results
+  This React (MERN) app is for horse riders to record the details of their horses and competition achievements. This allows equestrians to reflect on and map results for each horse in their team.
 
   Screenshot of Project (Google Chrome): 
   ![Screenshot](./Screen.PNG?raw=true)
