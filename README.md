@@ -1,20 +1,29 @@
 
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<p>
+    <img src="./YWlogo.png" align="right" height="500px" width="auto" alt="Logo"/>
+<h1 style="font-family:Kaushan Script"> 🌟 Equestrian Comps Project 🌟 </h1>
  <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#answers.project)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [License](#license)
-* [Contact](#contact)
-* [Creator & Acknowledgements](#acknowledgements)
+* 🚀 [About the Project](#answers.project)
+* 🛠️ [Installation](#installation)
+* 😁 [Usage](#usage)
+* ➕ [Contributing](#contributing)
+* ⁉️ [Tests](#tests)
+* 📑[License](#license)
+* 😎[Contact](#contact)
+* ❤️ [Creator & Acknowledgements](#acknowledgements)
+</p>
+<br><br>
+<p>
+<h2> 🚀 About ## Equestrian Comps project </h2>
 
-<h1> ## Equestrian-Comps </h1>
-
-  This React (MERN) app is for horse riders to record the details of their horses and competition achievements. This allows equestrians to reflect on and map results for each horse in their team.
+  This React (MERN) app is for horse riders to record the details of the horses in their stable, then to record their competition achievements. This allows equestrians to reflect on and map results for each horse in the team.
 
   Screenshot of Project (Google Chrome): 
   ![Screenshot](./Screen.PNG?raw=true)
@@ -22,78 +31,69 @@
   Repo: https://github.com/vetty88/Equestrian-Comps
   Heroku: nameless-island-13777 - https://nameless-island-13777.herokuapp.com/
 
-Video of app in action, see file: https://drive.google.com/file/d/1mIgtS27Gmv0B7ebZv5a_AWD_GH1xmNbS/view
+  Video of app in action, see file: https://drive.google.com/file/d/1mIgtS27Gmv0B7ebZv5a_AWD_GH1xmNbS/view
+</p>
+<p>
+<h2> 🛠️ Installation </h2>
+**To get a local copy up and running follow these simple steps.**
 
+npm install
 
-## Installation
-To get a local copy up and running follow these simple steps.
-
-npm install npm audit fix npm run start cd client npm install npm run build npm start
-
-Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+<h3> Prerequisites </h3>
 
 Installation-
-  Clone the repo
-    git clone https://github.com/vetty88/Equestrian-Comps.git
+  Clone the repo (with permission)
+    git clone https://github.com/vetty88/Equestrian Comps.git
   Install NPM packages
     npm install
-    npm inquirer
-    npm audit fix
-  Then open index.js file in console log and run
-    node index.js
-  You will be taken through a series of questions (user prompts) which will then lead to the generation of your new readme.md file!
+    npm audit fix 
+    npm run start 
+    cd client 
+    npm install 
+    npm run build 
+    npm start
 
+<h2> 😁 Usage </h2>
 
-## Usage
-
-This project can be used for undefined. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This project can be used for For the average horse owner to record their competition results. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 For more examples, please refer to the Documentation
 
-## Contributing
+<h2> ➕ Contributing </h2>
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Regarding this project I respectfully make the following requests regarding contributions:
+</p>
+<p>
 
+Please contact me before forking this repo
 
-please request permission from the creator before forking or copying this project
-
-Fork the Project
-  Create your Feature Branch 
-    (git checkout -b feature/AmazingFeature)
-  Commit your Changes 
-    (git commit -m 'Add some AmazingFeature')
-  Push to the Branch 
-    (git push origin feature/AmazingFeature)
-  Open a Pull Request
-
-## Tests
-
-See the open issues for a list of proposed features (and known issues). Testing completed and any known issues include the following:
+<h2> ⁉️ Tests </h2>
+Testing completed and any known issues include the following:
 * Have to tidy a few of the 'test' fields
 * Trying to figure out how to make the data show for the logged in user only, i.e: the data they have created. Haven't figured this out yet so the data in mongo is for all users shown
 * Issue where field has to change and date field has to be selected rather than typed to add to MONGODB correct'y, not sure how to fix - any feedback welcome! 
+* Folder tidy required
+* Library folder required
+* Some code needs tidying
+* duplicate src folder
  
-## License
+<h2> 📑 License <h2>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Contact
+![Made with love in Bairnsdale ](https://madewithlove.now.sh/au?heart=true&template=plastic&text=Bairnsdale+)
+</p>
+<p>
+<h2> 😎 Contact </h2>
 
 Your Name - vetty88@gmail.com
 
-Project Link: https://github.com/vetty88/Equestrian-Comps
+Project Link: https://github.com/vetty88/Equestrian Comps
 
-## Creator and Acknowledgements
+<h2> ❤️ Creator and Acknowledgements </h2>
 
 Github User: vetty88
 
 
 Yvette Waller 2021
-Credits Education : Monash University/Trilogy Education.
-
-Resources utilised to edit the code:
-Monash University ReadMe and Slide Materials Mozilla 
-MDN WebDocs: https://developer.mozilla.org/en-US/ 
-W3 Schools: https://www.w3schools.com/ 
-Stack Overflow: https://www.stackoverflow.com/
+Credits 
+** </p>
