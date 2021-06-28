@@ -69,14 +69,7 @@ const dashboardRoutes = [
     component: HorseDetail,
     layout: "/admin"
   },
-  //       {
-  //   path: "/usercomps",
-  //   name: "User Competition Details",
-  //   rtlName: "User Competition Details",
-  //   icon: "content_paste",
-  //   component: UserCompetitionDetail,
-  //   layout: "/admin"
-  // },
+
 ];
 
 
