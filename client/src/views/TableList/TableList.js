@@ -1,6 +1,5 @@
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
-import { Col, Row, Container } from "../../components/Grid/index";
-import { Input, DateSelector, SelectEvents, TextArea, FormBtn } from "../../components/Forms/CompForm";
+import { Col } from "../../components/Grid/index";
 import { Link } from "react-router-dom";
 import { List, ListItem } from "../../components/List/List";
 import { makeStyles } from "@material-ui/core/styles";
@@ -11,7 +10,6 @@ import CardHeader from "../../components/Card/CardHeader.js";
 import DeleteBtn from "../../components/Buttons/DeleteBtn.js";
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
-import Jumbotron from "../../components/Jumbotron/Jumbotron";
 import React, { useState, useEffect } from "react";
 import Table from "../../components/Table/Table.js";
 
@@ -19,7 +17,7 @@ import Table from "../../components/Table/Table.js";
 export default function TableList() {
   // Setting our component's initial state
   const [competitions, setCompetitions] = useState([])
-  const [formObject, setFormObject] = useState({})  
+  
   const styles = {
     cardCategoryWhite: {
       "&,& a,& a:hover,& a:focus": {
@@ -73,43 +71,6 @@ export default function TableList() {
       .then(res => loadCompetitions())
       .catch(err => console.log(err));
   }
-
-  // Handles updating component state when the user types into the input field
-  function handleInputChange(event) {
-    const { name, value } = event.target;
-    setFormObject({...formObject, [name]: value})
-  };
-
-  // When the form is submitted, use the API.saveCompetition method to save the competition data
-  // Then reload competitions from the database
-  function handleFormSubmit(event) {
-    event.preventDefault();
-    if (formObject.eventName && formObject.horse) {
-      API.saveCompetition({
-        eventName: formObject.eventName,
-        horse: formObject.horse,
-        eventType: formObject.eventType,
-        placing: formObject.placing,
-        penalties: formObject.penalties,
-        resultNotes: formObject.resultNotes,
-        date: new Date(formObject.date),
-      })
-        .then(res => loadCompetitions())
-        .catch(err => console.log(err));
-    }
-  };
-
-  function displayCompetitionsTable (competitions) {
-      if (!competitions.length) return null; {
-      API.displayCompetitionsTable()
-      {return competitions.map((competition) => (
-      <div key={competition._id} className="comp-post__display">
-        <h3>{competition.eventName}</h3>
-        <p>{competition.horse}</p>
-      </div>
-      ))}
-    }}
-
 
     return (
       <GridContainer>   

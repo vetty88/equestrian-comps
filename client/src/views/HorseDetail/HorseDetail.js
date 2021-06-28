@@ -1,35 +1,23 @@
-import { Col, Row} from "../../components/Grid";
 import { faBaby } from '@fortawesome/free-solid-svg-icons'
 import { faHorse } from '@fortawesome/free-solid-svg-icons'
 import { faHorseHead } from '@fortawesome/free-solid-svg-icons'
 import { faPalette } from '@fortawesome/free-solid-svg-icons'
 import { faRuler } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link, useParams } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import API from "../../utils/API";
 import Card from "../../components/Card/Card.js";
 import CardHeader from "../../components/Card/CardHeader.js";
-import CardIcon from "../../components/Card/CardIcon.js";
-import Container from "@material-ui/core/Container";
 import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
-import Jumbotron from "../../components/Jumbotron/Jumbotron";
-import React, { useEffect, useState, Component } from "react";
-import ReactDOM from 'react-dom';
+import React, { useEffect, useState } from "react";
 import styles from "../../assets/jss/material-dashboard-react/views/rtlStyle.js";
-import Warning from "@material-ui/icons/Warning";
-
 const useStyles = makeStyles(styles);
-
-const loggedInUser = localStorage.getItem('loggedIn')
 
 function HorseDetail(props) {
   const classes = useStyles();
 
   const [horses, setHorses] = useState([]);
-  const [formObject, setFormObject] = useState({})  ;
-
   
   // Load all horses and store them with setHorses
   useEffect(() => {

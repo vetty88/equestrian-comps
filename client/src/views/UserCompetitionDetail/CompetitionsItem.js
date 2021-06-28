@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import classnames from "classnames";
-import { Link } from "react-router-dom";
 import Moment from "react-moment";
 
 class CompetitionsItem extends Component {
 
   render() {
-    const { competition, showActions } = this.props;
+    const { competition } = this.props;
 
     return (
       <div className="card mb-3">
@@ -28,12 +26,7 @@ class CompetitionsItem extends Component {
                   </li>              
                 </ul>
                
-                {/* <Link to={`/competition/${competition._id}`} className="btn btn-info ml-auto">
-                  View Details
-                </Link>
-                 <Link to={`/competition/${competition.author}`} className="btn btn-info ml-auto">
-                  View Owner
-                </Link> */}
+
               </div>
             </div>
           </div>
