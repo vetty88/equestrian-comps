@@ -55,18 +55,15 @@ Installation-
 
 <h2> 😁 Usage </h2>
 
-This project can be used for For the average horse owner to record their competition results. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-For more examples, please refer to the Documentation
+This project can be used for For the average horse owner to record their competition results. 
 
 <h2> ➕ Contributing </h2>
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Regarding this project I respectfully make the following requests regarding contributions:
+<em>Please contact me before forking this repo</em>
 </p>
+
 <p>
-
-Please contact me before forking this repo
-
 <h2> ⁉️ Tests </h2>
 Testing completed and any known issues include the following:
 * Have to tidy a few of the 'test' fields
